@@ -1,0 +1,124 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: black;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.input-field {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+}
+
+button:hover {
+  background-color: #f1f1f1;
+}
+
+/* Message styles */
+.message {
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: none;
+}
+
+.message.error {
+  color: red;
+}
+
+.message.success {
+  color: green;
+}
+
+/* Employee Card Styling */
+.employee-card {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  background-color: black;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+.employee-info {
+  display: flex;
+  gap: 10px;
+  flex-grow: 1;
+  padding: 10px;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.employee-info span {
+  font-size: 14px;
+}
+
+button.delete {
+  background-color: white;
+  color: black;
+  margin-left: 20px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: auto;
+}
+
+button.delete:hover {
+  background-color: #f1f1f1;
+}
+
+.no-employees {
+  color: #888;
+  margin-top: 20px;
+}
